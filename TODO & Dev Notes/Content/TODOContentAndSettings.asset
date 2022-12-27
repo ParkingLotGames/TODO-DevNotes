@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: TODOContentAndSettings
+  m_EditorClassIdentifier: TODODevNotes:DevTools.Editor:TODONotesContent
+  entryTypes:
+  - name: TODO
+    entryColor: {r: 1, g: 1, b: 0.5, a: 1}
+    entryFinishedColor: {r: 1, g: 1, b: 0.8, a: 1}
+    index: 0
+  - name: Note
+    entryColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+    entryFinishedColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+    index: 1
+  - name: Bug
+    entryColor: {r: 0.498, g: 0, b: 0, a: 1}
+    entryFinishedColor: {r: 0.69, g: 0.2, b: 0.2, a: 1}
+    index: 2
+  - name: Backlog
+    entryColor: {r: 0.8, g: 0, b: 0, a: 1}
+    entryFinishedColor: {r: 1, g: 0.2, b: 0.2, a: 1}
+    index: 3
+  - name: Optmization
+    entryColor: {r: 0.1, g: 0.15, b: 0.4, a: 1}
+    entryFinishedColor: {r: 0.3, g: 0.35, b: 0.6, a: 1}
+    index: 4
+  - name: Observation
+    entryColor: {r: 0.25, g: 0.25, b: 0.35, a: 1}
+    entryFinishedColor: {r: 0.45, g: 0.45, b: 0.55, a: 1}
+    index: 5
+  - name: Request
+    entryColor: {r: 0.1, g: 0.25, b: 0.6, a: 1}
+    entryFinishedColor: {r: 0.3, g: 0.45, b: 0.8, a: 1}
+    index: 6
+  - name: Suggestion
+    entryColor: {r: 0.4, g: 0.05, b: 0.5, a: 1}
+    entryFinishedColor: {r: 0.6, g: 0.25, b: 0.7, a: 1}
+    index: 7
+  - name: In Progress
+    entryColor: {r: 0.1, g: 0.45, b: 0.1, a: 1}
+    entryFinishedColor: {r: 0.1, g: 0.45, b: 0.1, a: 1}
+    index: 8
+  items:
+  - entryType:
+      name: TODO
+      entryColor: {r: 1, g: 1, b: 0.5, a: 1}
+      entryFinishedColor: {r: 1, g: 1, b: 0.8, a: 1}
+      index: 0
+    entryTitle: 
+    entryContent: This is a finished TODO Entry
+    isFinished: 1
+    countedAsFinished: 1
+  - entryType:
+      name: Note
+      entryColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+      entryFinishedColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+      index: 1
+    entryTitle: 
+    entryContent: This is a note
+    isFinished: 0
+    countedAsFinished: 0
+  todoColor: {r: 1, g: 1, b: 0.5, a: 1}
+  todoFinishedColor: {r: 1, g: 1, b: 0.8, a: 1}
+  noteColor: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+  noteFinishedColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  bugColor: {r: 0.498, g: 0, b: 0, a: 1}
+  bugFinishedColor: {r: 0.69, g: 0.2, b: 0.2, a: 1}
+  backlogColor: {r: 0.8, g: 0, b: 0, a: 1}
+  backlogFinishedColor: {r: 1, g: 0.2, b: 0.2, a: 1}
+  optmizationColor: {r: 0.1, g: 0.15, b: 0.4, a: 1}
+  optmizationFinishedColor: {r: 0.3, g: 0.35, b: 0.6, a: 1}
+  observationColor: {r: 0.25, g: 0.25, b: 0.35, a: 1}
+  observationFinishedColor: {r: 0.45, g: 0.45, b: 0.55, a: 1}
+  requestColor: {r: 0.1, g: 0.25, b: 0.6, a: 1}
+  requestFinishedColor: {r: 0.3, g: 0.45, b: 0.8, a: 1}
+  suggestionColor: {r: 0.4, g: 0.05, b: 0.5, a: 1}
+  suggestionFinishedColor: {r: 0.6, g: 0.25, b: 0.7, a: 1}
+  inProgressColor: {r: 0.1, g: 0.45, b: 0.1, a: 1}
+  finishedItems: 1
