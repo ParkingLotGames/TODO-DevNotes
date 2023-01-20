@@ -10,4 +10,5 @@ A Unity Editor extension to keep a list of TODO and other misc tasks for your ga
 
 # //TODO
 
-#### Add summaries, documentation, comments, examples.
+#### Convert to package
+#### Add summaries, documentation, comments, examples, license.
